@@ -5,8 +5,13 @@ mkdir practice
 mv practice/ex02.c practice
 mv ex01.c
 remove ex03.c 
-mkdir README.md
-## example/example.c
-判断是奇数还是偶数
-## practice/parctive.c
-比较两个数大小
+touch README.md
+echo "## example/example.c">>README.md
+echo "判断是奇数还是偶数">>README.md
+echo "## practice/parctive.c">>README.md
+echo "比较两个数大小">>README.md
+
+git add shell.sh
+git commit -m"git"
+git push
+
